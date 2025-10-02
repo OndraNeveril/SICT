@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+
+\usepackage{multicol}
+\setlength{\parindent}{0pt}
+\def\dline#1{\underline{\underline{#1}}}
+
+\begin{document}
+
+\title{Otázka 2 - Princip práce počítače, schéma počítače, umělá inteligence.}
+\author{Ondřej Nevěřil}
+\date{25. 9. 2025}
+\maketitle
+
+\section*{Schéma počítače}
+
+PC -- zařízení pro zpracování informací
+
+vstup $\to$ výstup
+
+PC -- hardware (technické vybavení) + software (programové vybavení)
+
+FW (firmware) -- SW zabudovaný v HW, není běžně měnitelný, dá se aktualizovat\\
+
+Schéma PC -- vychází z Johna von Neumanna:\\
+
+Vstupní informace $\rightarrow$ Vstupní zařízení $\rightarrow$ RAM (+ ROM), disky, CPU $\rightarrow$ Výstupní zařízení $\rightarrow$ výstupní informace\\
+
+\begin{description}
+\item[ROM] -- read only memory -- vestavěná paměť -- jak startovat počítač, dlouhodobá paměť
+\item[RAM] -- random acces memory -- krátkodobá paměť -- ukládá data spuštěných aplikací, když se vypne PC, tak se vymaže
+\item[CPU] -- Řídí činnost PC, má více jader a vláken, každé řádově $GHz$ operací. Obsahuje:
+\begin{description}
+\item[Řadič] -- řídí činnost
+\item[ALJ] -- aritmeticko logická jednotka - výpočty
+\item[Registry] -- krátkodobá paměť, aby CPU nemusel do RAM- počet $16$ a více
+\end{description}
+\item[Registry v OS] -- informace potřebné k správnému chodu OS
+\item[Cache paměť] -- dočasné úložiště -- vyrovnává rychlost mezi CPU a RAM
+\end{description}
+
+\section*{Bity, byty}
+
+$1$ bit $= 1b = $ nejmenší jednotka informace -- ano nebo ne, fyzikálně lze snadno realizovat
+
+Použití jednotky např. rychlost sítí
+
+$1$ byte $= 1B = 8b$, čísla v intervalu $<0, 255>$
+
+Použití -- ASCII tabulka -- pro každou možnost jeden znak
+
+\section*{Tiskárny}
+
+\begin{enumerate}
+\item Jehličkové -- drahé, hlučné, malé DPI, levný tisk, pouze černě
+\item Laserové a LED -- černý i barevný tisk, kvalitní, čistá výměna tonerů,  vysoké provozní náklady.
+\item Inkoustové tiskárny - barevný tisk, kvalitní, rychlé, levné
+\item termální tiskárny $\cdots$
+\item $3$D tiskárny
+\end{enumerate}
+
+\end{document}
