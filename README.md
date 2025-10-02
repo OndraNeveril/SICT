@@ -1,6 +1,6 @@
-**Témata pro ústní zkoušku profilové části maturitní zkoušky**
-**školní rok 2024-2025**
-**INFORMAČNÍ A KOMUNIKAČNÍ TECHNOLOGIE**
+<h1>**Témata pro ústní zkoušku profilové části maturitní zkoušky**<br>
+**školní rok 2024-2025**<br>
+**INFORMAČNÍ A KOMUNIKAČNÍ TECHNOLOGIE**</h1>
 1) Informace a informatika. Ergonomie, ochrana zdraví při práci s počítačem
 2) Princip práce počítače, schéma počítače
 3) Hardware, klasifikace hardwaru
