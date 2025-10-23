@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+
+\usepackage{multicol}
+\setlength{\parindent}{0pt}
+\def\dline#1{\underline{\underline{#1}}}
+
+\begin{document}
+
+\title{Otázka 5 - Operační systémy, konfigurace pc, diskové manažery, údržba pc}
+\author{Ondřej Nevěřil}
+\date{23. 10. 2025}
+\maketitle
+
+\section*{Operační systém}
+
+$=$ program (balík programů) nutný pro práci PC
+
+Zajišťuje:
+
+\begin{itemize}
+\item Komunikaci mezi HW, aplikacemi a uživatelem
+\item Správu systémových zdrojů -- CPU, RAM, disků
+\item Správu a spouštění dalších programů
+\end{itemize} 
+
+Existují vrstvy OS:
+
+\begin{enumerate}
+\item Příkazový interpret -- GUI (Graphical user interface)/Příkazový řádek (CMD)
+\item Jádro OS -- BDOS (Basic disk operating system) (1981 MSDOS)
+\item BIOS (Basic input/output system) -- Firmware -- zajišťuje na nejnižší úrovni komunikaci s HW, obsahuje ovladače (drivery) zařízení
+\end{enumerate}
+ 
+Po startu PC se provede test HW (Post) a zavedení OS z disku do RAM -- Bootování, lze nastavit v BIOSu, nebo v Boot menu
+
+Klasifikace OS:
+\begin{enumerate}
+\item Řádkové (MSDOS)/grafické (Mint, Windows...)
+\item Jednouživatelské (MSDOS)/Síťové (lze připojit do sítě) -- pracovní stanice/server
+\item jednoúlohové (MSDOS)/Multitasking(Mint, Windows...)
+\end{enumerate}
+\begin{center}
+\includegraphics[scale=0.3]{1.png}
+\end{center}
+
+\section*{Souborový systém}
+Způsob uložení a organizace dat na disku
+
+\begin{enumerate}
+\item Fyzický disk -- dnes SSD
+\item Logické disky -- oddíly, partition
+\item Složky (adresáře) -- obsahuje soubory, které k sobě nějak patří
+\item Soubory -- pojmenovaná množina dat, jméno.přípona (podle přípony typ souboru a způsob, jak otevřít), datové (např..docx, .jpg, ...)/programy (např. .exe) -- postup pro PC, co má dělat\\ Soubory mohou mít atributy -- ARHS (archivní, jen pro čtení, skryté, sestémové) -- jméno, koncovka, datum vzniku, změny
+\end{enumerate}
+
+\end{document}
